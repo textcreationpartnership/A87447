@@ -1,0 +1,709 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Jews catechism Which was lately translated out of Hebrew into Latine. By the eminently learned Ludovicus de Compeigne de Veil.</title>
+            <author>Jagel, Abraham ben Hananiah dei Galicchi, 16th/17th cent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 84 KB of XML-encoded text transcribed from 48 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A87447</idno>
+            <idno type="STC">Wing J122C</idno>
+            <idno type="STC">ESTC R223607</idno>
+            <idno type="EEBO-CITATION">99896131</idno>
+            <idno type="PROQUEST">99896131</idno>
+            <idno type="VID">154005</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A87447)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 154005)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2393:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Jews catechism Which was lately translated out of Hebrew into Latine. By the eminently learned Ludovicus de Compeigne de Veil.</title>
+                  <author>Jagel, Abraham ben Hananiah dei Galicchi, 16th/17th cent.</author>
+                  <author>Compiègne de Veil, Louis de.</author>
+               </titleStmt>
+               <extent>[16], 77, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Benjamin Harris, at the Stationers Arms in the Piazza under the Royal Exchange, in Cornhill,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1680.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+               <term>Judaism --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Zev Berger</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Zev Berger</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:154005:1" rendition="simple:additions"/>
+            <p>THE JEWS CATECHISM. Which was lately Tranſlated out of Hebrew into Latine. By the Eminently Learned <hi>L<g ref="char:V">Ʋ</g>DOVIC<g ref="char:V">Ʋ</g>S DE COMPEIGNE DE VEIL.</hi>
+            </p>
+            <q>
+               <p>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </p>
+               <bibl>Plato.</bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Benjamin Harris,</hi> at the <hi>Stationers Arms</hi> in the <hi>Piazza</hi> under the <hi>Royal Exchange,</hi> in <hi>Cornhill.</hi> 1680.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:154005:2"/>
+            <pb facs="tcp:154005:2"/>
+            <head>TO THE READER.</head>
+            <p>HAving the Happineſs of being Intimately Ac<g ref="char:EOLhyphen"/>quainted with the Learned Author of the Latine Tranſla<g ref="char:EOLhyphen"/>tion of this Excellent Cate<g ref="char:EOLhyphen"/>chiſm, I was the more eaſily Inclin'd to undertake to Tran<g ref="char:EOLhyphen"/>ſlate it into Engliſh (omitting ſome few Paſſages) As all Scholars are Oblig'd to that Worthy Gentleman for his Latin Tranſlation, ſo I doubt not but thoſe Virtuous Per<g ref="char:EOLhyphen"/>ſons, who ſhall peruſe my En<g ref="char:EOLhyphen"/>gliſh,
+<pb facs="tcp:154005:3"/>will kindly Aceept the pains I have taken herein, though it comes ſo ſhort of the Eloquence of the Latine. The Book contains an Accu<g ref="char:EOLhyphen"/>rate Deſcription of a great part of a Chriſtians Duty, though the Author of the <hi>O<g ref="char:EOLhyphen"/>riginal</hi> was not a Chriſtian: But certainly He was not ſuch an Enemy to <hi>Chriſtianity</hi> as All the <hi>Socinians</hi> are: And His <hi>Catechiſm</hi> is much more to be Valued than <hi>CRELLIUS</hi>'s <hi>Ethicks.</hi> The <hi>Socinians</hi> ſo Im<g ref="char:EOLhyphen"/>pudently uſurping the Name of <hi>Chriſtians;</hi> And yet Deny<g ref="char:EOLhyphen"/>ing the LORD <hi>that bought them,</hi> are certainly to be AB<g ref="char:EOLhyphen"/>HORR'D by all thoſe that Love the LORD JESUS <hi>in ſin<g ref="char:EOLhyphen"/>cerity,</hi> as JUDAS's Diſciples,
+<pb facs="tcp:154005:3"/>who <hi>Betray'd</hi> Him with a <hi>KISS.</hi> If this ſhall be ſeen by any of the Engliſh Students of the <hi>Cracovian Catechiſm,</hi> I de<g ref="char:EOLhyphen"/>ſire they may be prompted to Conſider that the <hi>Foulneſs</hi> of their grand Errot (if it be an Error, as I conceive they of<g ref="char:EOLhyphen"/>ten Doubt it is) cannot be Sur<g ref="char:EOLhyphen"/>paſt by any thing but by the <hi>Brightneſs of his Glory,</hi> Whom they ſo horridly <hi>Blaſpheme</hi> by Denying Him to be the Only True, and Eternal GOD, Grie<g ref="char:EOLhyphen"/>ving His <hi>Holy Spirit,</hi> even by Aſſerting that DIVINE Wor<g ref="char:EOLhyphen"/>ſhip is Due unto Him, whilſt they Aſſert alſo that He is no other than a Meer MAN, in<g ref="char:EOLhyphen"/>volving themſelves in the greateſt Guilt of the groſſeſt <hi>Idolatry,</hi> which carries the
+<pb facs="tcp:154005:4"/>greateſt Oppoſition to the <hi>Spi<g ref="char:EOLhyphen"/>rit</hi> of Our Bleſſed LORD. There's more Hope of Con<g ref="char:EOLhyphen"/>verting a JEW than ſuch an <hi>Apoſtate,</hi> one that has in effect <hi>Renounc'd</hi> His Baptiſm, <hi>viz.</hi> By <hi>Denying</hi> Two of the Three PERSONS in Whoſe Name He was <hi>Baptiz'd. Socinianiſm,</hi> and all other <hi>Haer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſies</hi> we ſhall Avoid, if we truly, and con<g ref="char:EOLhyphen"/>ſtantly Follow the Rules laid down in this <hi>Catechiſm,</hi> which we may do Through CHRIST <hi>Enabling Us.</hi> When once the Generality of thoſe that have <hi>Named the Name of CHRIST</hi> ſhall by the Aſſiſtance of His Holy Spirit perform thoſe Du<g ref="char:EOLhyphen"/>ties which the JEWS them<g ref="char:EOLhyphen"/>ſelves Acknowledge to be in<g ref="char:EOLhyphen"/>cumbent upon All Mankind,
+<pb facs="tcp:154005:4"/>Then ſhall come to paſs that Saying of the <hi>Evangelical Pro<g ref="char:EOLhyphen"/>phet,</hi> 
+               <q>The Earth ſhall be full of the Knowledge of the LORD as the Waters cover the Sea.</q>
+            </p>
+            <closer>
+               <salute>Reader Farewel:</salute>
+And ſay with me from the Bottom of thy Heart, <hi>COME LORD JESUS</hi>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:154005:5"/>
+            <pb facs="tcp:154005:5"/>
+            <head>THE PROAEME</head>
+            <p>IT has been of old the Practice of the Jews as it were to <hi>Hedge in</hi> the Law, and to re<g ref="char:EOLhyphen"/>duce it all to certain Heads: So that the Fundamental Points thereof might be always in every mans Mouth. This courſe was ſtrictly obſerv'd by the Prophets of whom ſome contracted the whole Law within the compaſs of Eleven Articles, others of Three, and at length one of them com<g ref="char:EOLhyphen"/>priz'd the Sum, and Subſtance of all the Law in this one Do<g ref="char:EOLhyphen"/>ctrine,
+<pb facs="tcp:154005:6"/>to wit, that which we read <hi>Hab. 2.4. The Juſt ſhall live by Faith.</hi> Now th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>refore, when by reaſon of our manifold ſins we are oppreſt with ſuch a multi<g ref="char:EOLhyphen"/>tude of Calamities, it is more re<g ref="char:EOLhyphen"/>quiſite then ever, that we ſhould comprize in ſome few, and thoſe very brief and weighty Sentences, or forms of words, the Power of the Law, the Reaſonableneſs of Religion, the right way of Exer<g ref="char:EOLhyphen"/>ciſing True Charity, and the In<g ref="char:EOLhyphen"/>ſtitution of good Manners which was in force two thouſand Years b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fore the Law; That any young man though not very wife, yet not being altogether a Fool, might Rejoyce, and be exceeding glad, to have his mind thus In<g ref="char:EOLhyphen"/>ſtructed to yield a due, and con<g ref="char:EOLhyphen"/>ſtant Regard to the Law of GOD.
+<pb facs="tcp:154005:6"/>And would to God thoſe our Maſters who are the Rulers in the Synagogues of the Jews diſ<g ref="char:EOLhyphen"/>pers'd far, and wide on the face of the Earth, would effectually reſolve ſo to explain what is Truth, and Right by their Pre<g ref="char:EOLhyphen"/>cepts, and Admonitions, that at length all both young, and old, might attain to a competent un<g ref="char:EOLhyphen"/>derſtanding of the <hi>Divine Na<g ref="char:EOLhyphen"/>ture,</hi> and alſo of the true Rule of living a Sober, and Godly Life. Thus it would come to paſs that all their Scholars would make a large progreſs in the way of the most ſublime Knowledge, and true Wiſdome. Children alſo, perſons weak, and ſlow in their apprehenſions, who are not in any capacity either by converſing with Doctors, perſons of pro<g ref="char:EOLhyphen"/>found
+<pb facs="tcp:154005:7"/>Learning, or with the Books they have publiſht, to pe<g ref="char:EOLhyphen"/>netrate into the Depths of the Holy Law, and of the Doctrine concerning good Manners, yet even they may attain to ſome per<g ref="char:EOLhyphen"/>ception of the Truth, if any man expound it unto them after ſuch a manner, as we are now ſpeak<g ref="char:EOLhyphen"/>ing of. Having theſe things upon my Thoughts, and chiefly conſidering the Glory of God, I the leaſt, and unworthieſt of men <hi>Abraham Jagel,</hi> &amp;c. come forth from the midſt of a Multitude enflam'd with Zeal for the LORD, our GOD, and apply my mind unto writing. Nor do I make it my buſineſs to expreſs my ſelf in a lofty ſtrain, or in any ſubtle, and curious form of words, but that my Language
+<pb facs="tcp:154005:7"/>may be plain and eaſie to be un<g ref="char:EOLhyphen"/>derſtood like to common talk in familiar converſation. And I have diligently collected the words and deep ſayings of wiſe men, which they have left in writing ſcatter'd here, and there, concern<g ref="char:EOLhyphen"/>ing the Fundamental Points of the Law, not thinking it worth my labour to give an account of the ſeveral Authors of thoſe wiſe Sayings. For I studied to deli<g ref="char:EOLhyphen"/>ver a Diſcourſe both clear, and conciſe concerning that way, which will bring thoſe that perſevere in it, to obtain the Lawrel of the Age to come; and they ſhall alſo attain great Renown in this pre<g ref="char:EOLhyphen"/>ſent Age, even whilſt they re<g ref="char:EOLhyphen"/>main in the number of the Li<g ref="char:EOLhyphen"/>ving: This I have done that my Diſcourſe by reaſon of its Brevi<g ref="char:EOLhyphen"/>ty
+<pb facs="tcp:154005:8"/>may be the oftner in the mouths of Children, and may be the more eaſily learnt of them; ſo that as they grow in years, they may grow in the Fear of God, and be deter'd from all Wickedneſs; and that thoſe of riper Age, may never ſwerve from the Right Way. This ſmall Work I have entituled, <hi>The Good Doctrine:</hi> For a Good Doctrine I deliver unto you, which I have not drawn from the <hi>Rivulet</hi> of mine own Mind, but from the <hi>Fountain</hi> of Wiſe Men, to whom the Great God communicated his <hi>Secrets.</hi> Sith th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe things are ſo, let no man deſert my Precepts, but let every one that is Learned add his own Inſtructions to mine, and ex<g ref="char:EOLhyphen"/>pound them to Children, and ex<g ref="char:EOLhyphen"/>hort
+<pb facs="tcp:154005:8"/>them conſtantly to adhere thereunto, nor l<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t him ceaſe from this Labour, till they ſhall be fully and perfectly exerciſed therein, yea till they ſhall be able to re<g ref="char:EOLhyphen"/>peat them all without book from the beginning to the end. Then they ſhall perceive what it is to Fear, and Love God, then they ſhall arrive to a right underſtan<g ref="char:EOLhyphen"/>ding of the Doctrine delivered by Holy Men, concerning a pure Virtuous Life; finally then their Minds ſhall have a true compre<g ref="char:EOLhyphen"/>henſion of the Power of the Di<g ref="char:EOLhyphen"/>vine Law. Now, O Lord, Our God, Remember me for good, ac<g ref="char:EOLhyphen"/>cording to the Goodneſs, and In<g ref="char:EOLhyphen"/>tegrity of my Undertaking, for ſo I ſhall never be put to ſhame, and confuſion in this World, or in that which is to come: But
+<pb facs="tcp:154005:9"/>thou wilt give me my Portion with thoſe that have turn'd many unto Righieouſneſs. For theſe are they that ſhall ſhine as the Brightneſs of the Firmament For ever, and ever. May this, may this be thy Good Will, and Pleaſure.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:154005:9"/>
+            <head>THE JEWS <hi>Catechiſm.</hi>
+            </head>
+            <sp>
+               <speaker>Scholar.</speaker>
+               <p>GOD proſper you.</p>
+            </sp>
+            <sp>
+               <speaker>Maſter.</speaker>
+               <p>
+                  <hi>God be Gra<g ref="char:EOLhyphen"/>cious unto you: But hear my Son, who are you?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>I am yours, and I fear the Lord of all things, the Maker of the Heavens; and I thank him from the bottom of my Heart that
+<pb n="2" facs="tcp:154005:10"/>he hath made me a Man, and one of the Seed of <hi>Iſrael.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>God be Gracious unto thee, my Son; tell me now, I pray thee, to what end hath God made thee of ſo Excellent a Nature?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Surely he hath created all things for his own Glory: He hath made me for this end, that I ſhould be the Inſtrument of his Honour, that I ſhould Worſhip, and Revere his Godhead, and that I ſhould freely without a Servile Reſpect to any Reward perform all thoſe A<g ref="char:EOLhyphen"/>ctions, which are pleaſing unto Him; Though one day we ſhall re<g ref="char:EOLhyphen"/>ceive a Reward, when enjoying the Sight of God, world without end, we ſhall live ſuch a Life, as ſhall forever abound with the greateſt, and pureſt, and indeed with the on<g ref="char:EOLhyphen"/>ly True Delight, and Satisfaction.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>pon what grounds ſhall Man that is born of a Woman aſpire to that Tranquillity of Mind, and the Poſſeſſion of Eternal Felicity, which is
+<pb n="3" facs="tcp:154005:10"/>expected to be enjoy'd in the World to come?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>If he will wholly Rely on God by a True Faith, and ſure Hope, and take on him the Yoke of the Divine Law, which <hi>Moſes</hi> deliver'd to the Children of <hi>Iſrael:</hi> This way he will become Juſt, and Acceptable to God, and at length obtain Eternal Life.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What is the main Prop, and Foundation of Faith, and the Law?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>That there is a God Infi<g ref="char:EOLhyphen"/>nite in Goodneſs, and Infinite in Power, and Majeſty, who Made the whole World of Nothing, and made it for his own Pleaſure, and that there is none, who can hinder God, but that he may even now change e<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ther all the parts of the World, or ſome of its parts.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Is there any thing amongſt the Jews that may put us in mind of this.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Yes ſurely, the Obſervation of the <hi>Sabbath:</hi> This is a Sign, or
+<pb n="4" facs="tcp:154005:11"/>Token betwixt God, and the Chil<g ref="char:EOLhyphen"/>dren of <hi>Iſrael,</hi> whereby they are to call to mind that Heaven, and Earth were made in Six Days, and that God reſted the Seventh Day, and Hallowed it, and ſo by the Sacred Rites of this Day conſecrated the Children of <hi>Iſrael,</hi> and ſet them a<g ref="char:EOLhyphen"/>part to be his Peculiar People; that he would have this to be the Pillar of the <hi>Iſraelites</hi> Faith; that he has laid this as the Foundation of his Law.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Explain to me now, I pray thee, what is that Faith, of which thou haſt here ſhewn me the Baſis, and Foundation?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Faith is the Gift of God, whereby our minds are ſo affected that we ſincerely Believe all things, which God has taken care to De<g ref="char:EOLhyphen"/>clare unto us by his Prophets.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What are thoſe which they have declar'd to be Believ'd by us?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Truly they are very many: But there are Thirteen Articles,
+<pb n="5" facs="tcp:154005:11"/>which 'tis neceſſary that every man ſhould Believe, that is joyn'd in com<g ref="char:EOLhyphen"/>munion with the <hi>Iſraelites.</hi> More<g ref="char:EOLhyphen"/>over 'tis neceſſary that his Belief of theſe Articles be known and mani<g ref="char:EOLhyphen"/>feſt to all men: And whoſoever ſhall deprave but one of them, he is declar'd to have deſerted the Sy<g ref="char:EOLhyphen"/>nagogue, and to have renounc'd his Religion, neither ſhall he be any more called an <hi>Iſraelite.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Recite theſe Thirteen Arti<g ref="char:EOLhyphen"/>cles, theſe Foundations of Pure Reli<g ref="char:EOLhyphen"/>gion, ſhew plainly what they are.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>This is the Firſt, that we Believe that there is a God, the <hi>Firſt Efficient Cauſe,</hi> And the <hi>
+                     <g ref="char:V">Ʋ</g>lti<g ref="char:EOLhyphen"/>mate End</hi> of all things: That All things high, and low were Created, and are continually Suſtain'd By Him: That All things have re<g ref="char:EOLhyphen"/>ceiv'd their Being at his Pleaſure Alone, and at his Pleaſure Alone they Periſh: And that the Divine Eſſence is not diminiſht by their de<g ref="char:EOLhyphen"/>ſtruction, nor in the leaſt alter'd
+<pb n="6" facs="tcp:154005:12"/>ſith its Fulneſs, and Perfection is of It ſelf Alone, neither has he need of any other Being: For God Is Light, Power, and Eternal Life; Dominion, and Empire belongs to Him Alone, becauſe He Alone TRULY IS, and enjoys Royal Ho<g ref="char:EOLhyphen"/>nour and Majeſty.</p>
+            </sp>
+            <p>Another is this, That this God who Made All things in Heaven a<g ref="char:EOLhyphen"/>bove, and in Earth beneath, is ONE, SIMPLE, or UNCOMPOUND<g ref="char:EOLhyphen"/>ED, ſo that nothing can be found within, nor with<g ref="char:EOLhyphen"/>out<note n="*">That there were Many Worlds crea<g ref="char:EOLhyphen"/>ted by God is an Aſ<g ref="char:EOLhyphen"/>ſertion common a<g ref="char:EOLhyphen"/>mongſt the Jewiſh Writers; which our Author here layes down as a thing not to be doubted, <hi>An<g ref="char:EOLhyphen"/>notante Ludovico de Compeigne de Veil.</hi>
+               </note> any World, which is SIMPLE, or UNCOM<g ref="char:EOLhyphen"/>POUNDED, in like manner, as GOD hath the At<g ref="char:EOLhyphen"/>tribute of SIM<g ref="char:EOLhyphen"/>PLICITY. This is that which we find written <hi>Deut.</hi> 6.4. <hi>Hear O</hi> Iſrael, <hi>the LORD Our God is One LORD.</hi>
+            </p>
+            <pb n="7" facs="tcp:154005:12"/>
+            <p>The Third Fundamental Article is, That God being ONE whoſe Eſſence admits of no Kind of <hi>Mul<g ref="char:EOLhyphen"/>tiplicity,</hi> or <hi>Compoſition,</hi> is neither a Body, nor can be included within any Body: Agreeable to this is that Saying which we find written, <hi>Deut.</hi> 4.15. <hi>Ye ſaw no manner of Simili<g ref="char:EOLhyphen"/>tude.</hi>
+            </p>
+            <p>The Fourth is, That nothing could Be Before this GOD SIM<g ref="char:EOLhyphen"/>PLE, and INCORPOREAL, But that He is the <hi>Firſt,</hi> and the <hi>Laſt,</hi> as it is written, <hi>Iſa.</hi> 44.6. <hi>I am the Firſt, and I am the Laſt, and beſides me there is no God:</hi> which the Great Prophet thus expounds, <hi>Deut.</hi> 33.27. <hi>The Eternal God is thy Refuge;</hi> that is to ſay, the Place of Refuge, in which the <hi>Iſraelites</hi> ſhould acqui<g ref="char:EOLhyphen"/>eſce, and repoſe all their Hopes, and all their Poſſeſſions, is th' Eter<g ref="char:EOLhyphen"/>nal God, whom nothing may be Compar'd, or Lik'ned unto. Hence the ſame Prophet preſently after poures forth theſe words; <hi>Happy
+<pb n="8" facs="tcp:154005:13"/>art thou, O</hi> Iſrael, <hi>who is like unto thee, O people ſaved by the LORD, the Shield of thy Help.</hi>
+            </p>
+            <p>The Fifth is, That to th' Eter<g ref="char:EOLhyphen"/>nal God, the only Creator of All things, to Him Alone is Due <hi>Wor<g ref="char:EOLhyphen"/>ſhip,</hi> and <hi>Veneration,</hi> and to none beſides Him, becauſe All things were Created, and He is the Crea<g ref="char:EOLhyphen"/>tor: That it is not Lawful to Pray for any thing to any Created Na<g ref="char:EOLhyphen"/>ture, but we muſt ſtill implore his Aid, who has the Soveraign Power, and Dominion over All things without exception: Whoſoever Honours as a God either by <hi>Sacri<g ref="char:EOLhyphen"/>fices,</hi> or any <hi>Sacred Rites,</hi> or by <hi>Prayers,</hi> and <hi>Supplications,</hi> any King, or Angel, or any Power, whether Caeleſtial, or Terreſtrial, that he ſhall be accurſed, and given up to moſt horrid Torments.</p>
+            <p>The Sixth, That the Infinitely Good and Great God of his ſingu<g ref="char:EOLhyphen"/>lar Benignity, and Good Will, has choſen out of Mankind ſometimes
+<pb n="9" facs="tcp:154005:13"/>one, ſometimes many fit perſons, as it pleaſed him, them he Inſpir'd with the knowledge of his Mind, diſcovering unto them things to come, that by them the deſires, and actions of other men might be di<g ref="char:EOLhyphen"/>rected to true Godlineſs, and Ho<g ref="char:EOLhyphen"/>neſty.</p>
+            <p>The Seventh, That <hi>Moſes</hi> did far excel in the Gift of Propheſie all the Prophets in all Ages: That all the Prophets that went before him, even the Patriarchs themſelves, and thoſe that lived near the ſame time, were inferiour to <hi>Moſes</hi> in the Ex<g ref="char:EOLhyphen"/>cellency of Propheſie: That He it was whom the God of <hi>Jacob</hi> eſteem<g ref="char:EOLhyphen"/>ed a fit perſon by whom he would give a Juſt Law to the <hi>Iſraelites,</hi> to cheriſh, and refreſh their Souls: Moreover, that <hi>Moſes</hi> arriv'd to that Degree of the Knowledge of God, which no other man could ever approach unto.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Doſt thou know how many ways the Propheſie of</hi> Moſes <hi>differs
+<pb n="10" facs="tcp:154005:14"/>from the Viſions of the other Pro<g ref="char:EOLhyphen"/>phets?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>In four reſpects:
+<list>
+                     <item>Firſt, That God ſpake not to any other Pro<g ref="char:EOLhyphen"/>phet, but by an Angel, or Meſſen<g ref="char:EOLhyphen"/>ger ſeparate from a Body; and he afforded His <hi>Preſence</hi> to <hi>Moſes,</hi> when he made known his Mind unto him, as we find it written, <hi>Num.</hi> 12.8. <hi>With him will I ſpeak mouth to mouth.</hi>
+                     </item>
+                     <item>Secondly, That the Spirit of Propheſie did take hold of every o<g ref="char:EOLhyphen"/>ther Prophet in <hi>Viſions</hi> by night, or by day whilſt he was in a kind of Slumber, that all his Senſes were in a manner ſtupified, which indeed thoſe words of Scripture do plainly declare, <hi>v.</hi> 6. <hi>I the Lord will make my ſelf known unto him in a Dream:</hi> But of <hi>Moſes</hi> we find it written, <hi>v.</hi> 7. <hi>My Servant</hi> Moſes <hi>is not ſo — with him will I ſpeak mouth to mouth.</hi>
+                     </item>
+                     <item>Thirdly, That at the Breathing, of the Divine Spirit the ſtrength of the other Prophets fail'd them, and their Senſes were benum'd with
+<pb n="11" facs="tcp:154005:14"/>horror: but <hi>Moſes</hi> talked with God, as one man is wont to do with ano<g ref="char:EOLhyphen"/>ther, without any Trembling or ſudden decay of ſtrength.</item>
+                     <item>Laſtly, That Prophetick Viſions were not given to other Interpre<g ref="char:EOLhyphen"/>ters of the Divine Will at what time ſoever they were pleas'd to re<g ref="char:EOLhyphen"/>ceive them, but when God accord<g ref="char:EOLhyphen"/>ing to his Secret Will was pleas'd to give them, and when they were duly prepar'd for them; but <hi>Moſes</hi> was always prepar'd, and when he would he was Inſpir'd with the <hi>Di<g ref="char:EOLhyphen"/>vine Wiſdom,</hi> which we may clearly underſtand by that place of Scrip<g ref="char:EOLhyphen"/>ture, <hi>Num.</hi> 9.8. <hi>Stand ſtill, and I will hear what the Lord will command concerning you.</hi>
+                     </item>
+                  </list>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>I hear what thou ſayeſt, and do fully approve it. Now I would have thee return to the explication of the other Fundamental Points of the Law.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The Eighth is, That all the Law from the firſt words, <hi>In the be<g ref="char:EOLhyphen"/>ginning,</hi> to the laſt, <hi>In the ſight of all</hi>
+                  <pb n="12" facs="tcp:154005:15"/>Iſrael, was written by <hi>Moſes,</hi> as God had Dictated it unto him: and that there is no <hi>Diſtinction</hi> to be made betwixt theſe words, <hi>Exod.</hi> 20.2. <hi>I am the Lord thy Lord;</hi> And thoſe <hi>Gen.</hi> 36.12. <hi>And</hi> Timna <hi>was Concu<g ref="char:EOLhyphen"/>bine,</hi> or any other of the like kind: that the Law is every way like it ſelf: that every Verſe, and every ſingle Word is equally the <hi>Word of God.</hi>
+               </p>
+            </sp>
+            <p>The Ninth, That nothing muſt be added to, nor diminiſht from the Law of <hi>Moſes,</hi> no, not ſo much as one word, or letter, becauſe it is expreſly written, <hi>Deut.</hi> 12.32. <hi>Thou ſhalt not add thereto, nor diminiſh from it.</hi> For herein conſiſts the Per<g ref="char:EOLhyphen"/>fection of any thing that nought can be added to it, nor taken from it: But the Law is abſolutely Perfect, which the Royal Prophet declares in expreſs terms, <hi>Pſal.</hi> 9.8. <hi>The Law of the Lord is perfect:</hi> where<g ref="char:EOLhyphen"/>fore it does not Admit of any Addi<g ref="char:EOLhyphen"/>tion, or Diminution.</p>
+            <pb n="13" facs="tcp:154005:15"/>
+            <p>The Tenth, That the Infinitely God and Great God doth Behold the Actions of all men, and his Eyes are always upon them, which this Divine Oracle does expreſly de<g ref="char:EOLhyphen"/>clare, <hi>Jer.</hi> 32.19. <hi>Great in Counſel and mighty in Work, for thine Eyes are open upon all the ways of the Sons of men:</hi> And that other Text of Scri<g ref="char:EOLhyphen"/>pture, <hi>Amos</hi> 4.13. <hi>And declareth unto man what is his thought.</hi> For if he knew the thoughts of man, how much more evident is it that He knows his Actions?</p>
+            <p>The Eleventh, That God deals with every man according to that kind of Life, which he leads here upon Earth; to thoſe, who keep his Commandments he gives great Rewards, and infflicts great Puniſh<g ref="char:EOLhyphen"/>ments on thoſe that Diſobey him, ſometimes in this World, ſome<g ref="char:EOLhyphen"/>times in that which is to come, and ſometimes in both, according to their ſeveral works whether good, or evil: but that the chief Rewards,
+<pb n="14" facs="tcp:154005:16"/>and the ſharpeſt Puniſhments are deferr'd till they come to the other World.</p>
+            <p>The Twelveth is,—</p>
+            <p>The Thirteenth is, that at a ſet Time known only to God, it will come to paſs that all the Dead ſhall Live again, that he who does not Believe this, has no Communion in Religion with the <hi>Jews;</hi> for we have it thus written in the Pro<g ref="char:EOLhyphen"/>phet <hi>Iſa.</hi> 26.19. <hi>Thy Dead men ſhall Live, together with my Dead body ſhall they ariſe. Awake, and ſing ye that dwell in the Duſt. Dan.</hi> 12.2. <hi>And many of them that ſleep in the Duſt of the Earth ſhall Awake.</hi> But they are Righteous men, who ſhall be Judg'd fit for the enjoyment of this ſo great and deſirable Good. I pray God we may be of their number, that God may give unto us Eternal
+<pb n="15" facs="tcp:154005:16"/>Life, that we may be rais'd from the Dead, and live in his Sight.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But what's the reaſon that thou judgeſt the</hi> Beginning <hi>or</hi> Origin <hi>of the World, to be the Root and Foun<g ref="char:EOLhyphen"/>dation of the Law, rather than one of thoſe Thirteen Articles of Faith?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Becauſe where this is Be<g ref="char:EOLhyphen"/>lieved, that the World had a Be<g ref="char:EOLhyphen"/>ginning, we may eaſily infer the Poſſibility of Propheſie and Signs and Wonders, and the Gathering together of our People, ſcatter'd far and wide on the face of the Earth, and the Reſurrection of the Dead, and of all things elſe that are contain'd in the Articles of our Religion. And every one may give a ready Anſwer, if he ſhould be ask'd, why God has done this or that, or will do it, in ſuch a Man<g ref="char:EOLhyphen"/>ner, to wit, As He Will'd or De<g ref="char:EOLhyphen"/>creed to Create, or Frame the Whole World after this Manner, rather than any other; ſo he Will'd and Decreed to Effect all
+<pb n="16" facs="tcp:154005:17"/>theſe things, about which Debate in ſuch a Manner, as ſeemed Beſt to his Infinite Wiſdom. There<g ref="char:EOLhyphen"/>fore when in the Law there's a Precept given touching the <hi>Sab<g ref="char:EOLhyphen"/>bath,</hi> which puts us in mind of the Creation of the World, it is ſaid, <hi>Exodus</hi> 31.17. <hi>It is a Sign, between me and the Children, of Iſrael for ever.</hi> The ſenſe of which is this, This Sign is the ſtable Foundation and Support of the Covenant made between me and the Children of <hi>Iſrael,</hi> in whoſe hearts my Law is written, by which they are Diſtinguiſh'd from all other Peo<g ref="char:EOLhyphen"/>ple and Languages.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>The nature of Faith being thus Expounded, together with all thoſe things that Depend on it, I would have thee now to explain unto me what that Hope is, which is joyn<g ref="char:EOLhyphen"/>ed with it, by whoſe help men may ar<g ref="char:EOLhyphen"/>rive to the enjoyment of the</hi> Sovereign Good <hi>in the World to come.</hi>
+               </p>
+            </sp>
+            <pb n="17" facs="tcp:154005:17"/>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Hope is a Divine Gift or Endowment, whereby our Mind becomes ſo Pure, and grows up to ſuch an Height, that thoſe De<g ref="char:EOLhyphen"/>lights of the <hi>Spirit,</hi> which are the Ultimate End or Satisfaction of all our Deſires, we are Confident that we ſhall attain unto, not by our own Righteouſneſs or Good works, but by the Infinite Mercy and Goodneſs of God towards us. And that whatſoever we ſhall <hi>Really have Need of,</hi> as to this preſent Life, we ſhall receive in Abund<g ref="char:EOLhyphen"/>ance from the Providence of God. For he gives with a liberal hand to all living creatures whatſoever their Nature requires. Let all Men therefore look up and truſt in him, that giveth Food to every li<g ref="char:EOLhyphen"/>ving Creature in his due time, even to the vileſt and moſt contemp<g ref="char:EOLhyphen"/>tible Worms and Flies.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>How muſt we behave our ſelves towards God, that we may re<g ref="char:EOLhyphen"/>ceive ſuch bleſſings from him?</hi>
+               </p>
+            </sp>
+            <pb n="18" facs="tcp:154005:18"/>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>As a Servant towards a Ma<g ref="char:EOLhyphen"/>ſter, as a Child towards a Father; either of them if he expect any good thing from his Governour, labours with all his might that he may yield due obſervance unto him both in word and deed, both of them beg the good things they expect moſt earneſtly and humbly: And it is moſt fit and juſt that we, whether as Children or Servants, ſhould daily perform thoſe Actions which are moſt acceptable to God, that our Conceptions ſhould be right and orthodox, that our Works ſhould be pious, that we ſhould make our Supplications, and pour forth our Prayers unto God; for he will hear our Prayers and grant our Requeſts. Hope there<g ref="char:EOLhyphen"/>fore is the common <hi>Baſis</hi> or Ground-work, which with the Di<g ref="char:EOLhyphen"/>vine Aſſiſtance is uſeful to us in the building up of all other Vertues. Hope fills the Mind with Peace and Tranquillity, and cheriſhes the
+<pb n="19" facs="tcp:154005:18"/>Body with the pureſt and moſt laſt<g ref="char:EOLhyphen"/>ing pleaſure. Hope conduceth to the Study of the Law, and to Ci<g ref="char:EOLhyphen"/>vil Converſation; for whoſoever puts his whole truſt and confidence in God, the grace and favour of God encompaſſeth him about con<g ref="char:EOLhyphen"/>tinually; his Feet ſhall not ſlip as thoſe Men that are falling, being always in ſlippery places, who put their truſt in any other thing but in God. This is that which the Anointed of the God of <hi>Jacob</hi> ſpeaks, <hi>Pſal.</hi> 37.3, 4, 5. <hi>Truſt in the Lord and do good, ſo ſhalt thou dwell in the Land, and verily thou ſhalt be fed. Delight thy ſelf in the LORD, and he ſhall give thee the deſires of thy heart. Commit thy way unto the LORD; truſt alſo in him, and he ſhall bring it to paſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What ſhall his hope fail him that truſts in any other thing but in God?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Yes ſurely, on whatſoever other thing a man relies, he relies
+<pb n="20" facs="tcp:154005:19"/>on a broken Reed; for if he truſt in his great Riches, they ſuddenly get wings and fly away. And they are always ſubject to innumerable caſualties, and are often loſt by ſome ſudden chance. Now if he truſt in his rare Knowledge and excellent Learning, lo a ſhort Sickneſs weakens his Brain, and all his artificial ſubtil Knowledge comes to nothing. If in the mul<g ref="char:EOLhyphen"/>titude of Children, Friends, and Kindred, if in a faithful Wife, their Soul and Spirit is in the hand of God; it may come to paſs that in a moment they may die, and ſo he's deprived of his ſupport: and the ſame perſons it may be whileſt they live, for a ſmall offence take up a great prejudice, and become Enemies. Beſides, if he be redu<g ref="char:EOLhyphen"/>ced to a poor Condition, if he la<g ref="char:EOLhyphen"/>bour under any Diſeaſe, ſo that he cannot perform any buſineſs, nor provide Food and Raiment for his Family at home, he finds no<g ref="char:EOLhyphen"/>thing
+<pb n="21" facs="tcp:154005:19"/>but brawling and contenti<g ref="char:EOLhyphen"/>on, and all his Friends and Ac<g ref="char:EOLhyphen"/>quaintants at once fail him; <hi>Prov.</hi> 19.7. <hi>All the Brethren of the Poor hate him; how much more do his Friends go far from him?</hi> More<g ref="char:EOLhyphen"/>over he becomes an Alien in the ſight of the Man-ſervants and Maid-ſervants born in his Houſe; for this was the Complaint of <hi>Job</hi> overwhelmed with Calamities, <hi>Job</hi> 19.17. <hi>My Breath is ſtrange to my Wife, though I entreated for the Childrens ſake of my own Body.</hi> It will be as great folly for any man to truſt in his Bodily Strength, which ſome Diſeaſe may deſtroy in a moment. The Gout does but ſeize on ſome one Joynt, and pre<g ref="char:EOLhyphen"/>ſently it keeps a Man at home in ſadneſs and ſolitude, and will not permit him to put his Foot with<g ref="char:EOLhyphen"/>out the door. But it is not ſo with him who has his whole dependence upon God, for he will ſtand in awe of the Divine Majeſty, but will
+<pb n="22" facs="tcp:154005:20"/>not be awed by any thing elſe; he will yield Worſhip and the moſt humble Subjection to God alone. All his Hopes or Poſſeſſions are placed in God, and he will have a care that he give not that Affecti<g ref="char:EOLhyphen"/>on which is due to God onely, to a Creature like to himſelf. He will aſſociate himſelf, and conſult with Men how they may have Commu<g ref="char:EOLhyphen"/>nion in Worſhiping the Creator, as they ought to do; but he will not be moved at their diſcord or diſſention upon any occaſion what<g ref="char:EOLhyphen"/>ſoever, and his thoughts are ad<g ref="char:EOLhyphen"/>vanced to ſuch an height by his confidence in God, that he draws off his Mind from the frail and periſhing things of this preſent World, and fixes his whole inten<g ref="char:EOLhyphen"/>tion upon the ſtudy of the Law and pure Religion; and this he does for the love of Piety, not fear of Puniſhment; and that he may paſs over his Life in true peace and tranquillity of Mind, and may ob<g ref="char:EOLhyphen"/>tain
+<pb n="23" facs="tcp:154005:20"/>in the other World, the moſt perfect and everlaſting Joy and Sa<g ref="char:EOLhyphen"/>tisfaction.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>How ought a man to be thus qualified, that he may attain to the higheſt degree of this Vertue?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Whoever aſpires to this height, 'tis neceſſary that he ob<g ref="char:EOLhyphen"/>ſerve, and always keep in his mind theſe five things. Firſt, that the infinitely good and great God does night and day, take care and pro<g ref="char:EOLhyphen"/>vide for the Sons of Men. And this is that which we find written <hi>Pſal.</hi> 121.4. <hi>Behold, he that keepeth Iſ<g ref="char:EOLhyphen"/>rael ſhall neither ſlumber nor ſleep.</hi> He muſt have as great a confidence in God as can be, and his Heart muſt never fail him.</p>
+            </sp>
+            <p>He muſt alſo remember that the Mercy of God does infinitely ex<g ref="char:EOLhyphen"/>ceed the Mercy of all thoſe Men, who have any tender concern for us, and that he takes care of our Affairs both in private and in pub<g ref="char:EOLhyphen"/>lick. And moreover that, all the
+<pb n="24" facs="tcp:154005:21"/>kindneſs and good offices of other men towards us, do proceed from the love of our merciful God; for he it is that mov'd the hearts of men with compaſſion towards us, and stirs them up to uſe all di<g ref="char:EOLhyphen"/>ligence in providing for our ſafety and welfare. He diſpoſes all things in a wonderful contexture and dependence of Cauſe one upon another; neither is it our Merit that we are ſo well provided for, but the mere Benignity and Free Mercy of God. From whence we may underſtand, that whatſoever happens to any of us, whether a ſmall matter or a great, it is ap<g ref="char:EOLhyphen"/>pointed and determined by no other than the Great Ruler and Lord of All things. And alſo that All our Hope is to be fix'd in God, and that we have no Expectation from any other; for if any ones Hope depends upon another, he does as if he ſhould truſt with a <hi>double mind,</hi> which ſurely is a very
+<pb n="25" facs="tcp:154005:21"/>great wickedneſs, becauſe he joyns with the Aid or Aſſiſtance of Al<g ref="char:EOLhyphen"/>mighty God the Aſſiſtance of Man, who firſt conſiſts of Fleſh and Bloud, and after that is turned to Worms and Corruption. There<g ref="char:EOLhyphen"/>fore it is written <hi>Jer.</hi> 17.25. <hi>Curſed be the man that truſteth in man, and maketh Fleſh his arm, and whoſe heart departeth from the Lord.</hi> More<g ref="char:EOLhyphen"/>over, he muſt have a Mind Chaſt and Pure, and firmly and con<g ref="char:EOLhyphen"/>ſtantly bent to do that which the Creator commands for the Honour of his Name; and as earneſtly re<g ref="char:EOLhyphen"/>ſolv'd to avoid whatſoever he hath forbidden. We who put our Con<g ref="char:EOLhyphen"/>fidence in God, would have him to be Preſent with us, and really to Aſſiſt us at all times, and in all places. 'Tis therefore fit and juſt, that we ſhould addict our ſelves to do his Will, as we are wont to do our own; yea to renounce our own Will when it ſtands in compe<g ref="char:EOLhyphen"/>tition with his. Whoſoever ſhall
+<pb n="26" facs="tcp:154005:22"/>moſt diligently obſerve this courſe of Life, God will give them all that they ſhall deſire of him, and whatſoever they would have he will bring it to paſs. But thoſe who contemn the Word of God, and are refractory to his Com<g ref="char:EOLhyphen"/>mands, ſhall be branded with a Mark of Eternal Infamy. For this is that which we find written <hi>Job</hi> 27.8, 9. <hi>For what is the hope of the Hypocrite, though he hath gained, &amp;c. will God hear his Cry? &amp;c.</hi>
+            </p>
+            <p>Laſtly; we muſt exerciſe the whole ſtrength of our Soul in im<g ref="char:EOLhyphen"/>ploring the Help of God, who ne<g ref="char:EOLhyphen"/>ver fails to aſſiſt them who call up<g ref="char:EOLhyphen"/>on him, if they call upon him from the bottom of their heart. For this is the ſcope and drift of that ſaying of the Pſalmiſt, <hi>Pſ.</hi> 10.17. <hi>Thou wilt prepare their heart; thou wilt cauſe thine ear to hear.</hi> Three times in a day at leaſt, at Evening, Morning, and Noon, with bended Knees, with Hands lifted up to Heaven, and
+<pb n="27" facs="tcp:154005:22"/>high aſpiring thoughts, thou ought<g ref="char:EOLhyphen"/>eſt to make Prayers and Supplica<g ref="char:EOLhyphen"/>tions unto God, and before thou makeſt thy Prayers and Supplica<g ref="char:EOLhyphen"/>tions, to praiſe, extoll, and cele<g ref="char:EOLhyphen"/>brate the Divine Majeſty with Hymns and Odes, and thoſe Pſalms which the moſt ſweet Singer in <hi>Iſ<g ref="char:EOLhyphen"/>rael,</hi> and thoſe Men of the great Synagogue did compoſe. Thou muſt not add any thing to them, nor make the leaſt alteration in thoſe Forms of Prayer, which have been conſtituted and appointed for our uſe by wiſe and holy Men; for if here thy Tongue falter in any thing, thou art involv'd in the guilt of a grievous error. Now whatſoever ſhall befall thee, whether it be Proſperity or Ad<g ref="char:EOLhyphen"/>verſity, receive it chearfully from thy Creator, and give him thanks for the ſame, and ſet forth his Praiſe, and glorifie his Name; ac<g ref="char:EOLhyphen"/>cording to that which we ſee writ<g ref="char:EOLhyphen"/>ten <hi>Pſalm</hi> 116.13. <hi>I will take the Cup
+<pb n="28" facs="tcp:154005:23"/>of Salvation, and call upon the Name of the LORD.</hi> Ver. 3, 4. <hi>I found trouble and ſorrow; then called I upon the Name of the LORD.</hi> There<g ref="char:EOLhyphen"/>fore let this be always in thy mouth; Such is the Mercy of God towards us, that whatſoever he doth unto us, he doth it for our good. And thou muſt give thanks to God always, and in all places, for all the Conveniences of this Life, for thy Meat and Drink, and for all things that thou enjoyeſt, uſing thoſe Forms of Thankſgiving which our Doctors have compo<g ref="char:EOLhyphen"/>ſed.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Thou haſt ſaid enough touch<g ref="char:EOLhyphen"/>ing the nature of Faith and Hope; tell me now (I pray thee) what other thing is neceſſary for the conpleting of true Vertue, by which our Souls may attain to the Fulneſs of Eternal Joy.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>There is another Affection of the Mind: this is called Love or Charity.</p>
+            </sp>
+            <pb n="29" facs="tcp:154005:23"/>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>How doſt thou define or ex<g ref="char:EOLhyphen"/>preſs the nature of this Affection?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Love is a Divine Gift or Endowment, which when the LORD our God hath conferr'd on us, we love him as it is moſt fit and juſt, with a Love anſwerable to his Infinite Excellency and Perfection, and to his exceeding great Mercy and Goodneſs towards us. By this Affection we are engag'd to take the Yoke of the Law upon us, and to obſerve all the Divine Pre<g ref="char:EOLhyphen"/>cepts. By this we are conſtrained to ſtudy the good of all men, as Creatures made after the Image of God, and to help them upon all occaſions according to the utmoſt of our power; for this is a great part of the Law. Be ſure thou never do to another what thou wouldeſt not that any man ſhould do unto the.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But to love and to fear are two contrary things, and repugnant to each other; how can it be then that
+<pb n="30" facs="tcp:154005:24"/>they who Fear God, and ſtand in Awe of him, ſhould alſo love him?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>When a man deeply conſi<g ref="char:EOLhyphen"/>ders, and moſt ſeriouſly meditates on the Frame and Making of ſo ma<g ref="char:EOLhyphen"/>ny, and ſo great, and ſo admirable Creatures; hereupon he preſently apprehends, that the Force and Efficacy of the Divine Wiſdom is Infinite, which he worſhippeth, praiſeth, magnifieth, and ſo he ve<g ref="char:EOLhyphen"/>hemently deſires to have ſome, <hi>In<g ref="char:EOLhyphen"/>ſpection</hi> into the Divine Eſſence, moſt Powerful and Excellent. Thoſe words of <hi>David,</hi> that moſt Religious King, have reſpect to this truth, <hi>Pſal.</hi> 42.2. <hi>My Soul thirſteth for God, for the living God;</hi> therefore he applies his Mind to the thoughts of thoſe things, and preſently he draws off his Mind from them; he fears, he trembles, he perceives himſelf being of a Na<g ref="char:EOLhyphen"/>ture low, vile, obſcure to force up his Underſtanding weak and im<g ref="char:EOLhyphen"/>perfect, to the ContemplatIon of a
+<pb n="31" facs="tcp:154005:24"/>Mind moſt high and infinite in all Perfection; of which very thing <hi>David</hi> ſpeaketh thus, <hi>Pſal.</hi> 8.3, 4. <hi>When I conſider thy Heavens, the work of thy Fingers, the Moon and the Stars which thou haſt ordained: What is Man that thou art mindful of him?</hi> So it comes to paſs, that a man at once Fears and Loves the Divine Majeſty, and ſtrictly ob<g ref="char:EOLhyphen"/>ſerves thoſe two things which the Law preſcribes, whereof one ſeems to be contrary to the other, to wit this, <hi>Deut.</hi> 6.5 <hi>Thou ſhalt Love the LORD thy God with all thy heart, &amp;c.</hi> And that <hi>chap.</hi> 10. <hi>ver.</hi> 20. <hi>Thou ſhalt Fear the LORD thy God, him ſhalt thou ſerve, and to him ſhalt thou cleave.</hi> For this Fear mix'd with Love brings us to a ſyncere Union with God. For by theſe Affections we are induc'd to imi<g ref="char:EOLhyphen"/>tate Gods way of dealing with his Creatures; he ſhews himſelf in the Government of them full of Kindneſs and Benignity, Juſt and
+<pb n="32" facs="tcp:154005:25"/>Faithful, (but theſe varieties of Affections are onely in the <hi>effects,</hi> for no <hi>Paſſion</hi> or <hi>Affection,</hi> proper<g ref="char:EOLhyphen"/>ly ſo call'd, can be attributed un<g ref="char:EOLhyphen"/>to God) therefore we muſt en<g ref="char:EOLhyphen"/>deavour moſt earneſtly to have our Minds endued with the like diſpo<g ref="char:EOLhyphen"/>ſition, and by theſe ſteps to aſcend to the true Holineſs, as it is writ<g ref="char:EOLhyphen"/>ten in the Law, <hi>Lev.</hi> 19.2. <hi>Ye ſhall be holy, for I the Lord your God am holy.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Is any other thing neceſſary for the obtaining of the Sovereign Good or true Happineſs beſides this twofold Love, of which thou haſt ſpo<g ref="char:EOLhyphen"/>ken,</hi> viz. <hi>towards God and towards Men?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>On theſe two depends the whole Law; for that <hi>Deut.</hi> 6.5. <hi>Thou ſhalt Love the LORD thy God with all thy Heart, and with all thy Soul, and with all thy Strength;</hi> con<g ref="char:EOLhyphen"/>tains all thoſe Precepts command<g ref="char:EOLhyphen"/>ing and forbidding, which declare what is the Duty of Man towards
+<pb n="33" facs="tcp:154005:25"/>God. And this <hi>Lev.</hi> 19.18. <hi>Thou ſhalt love thy neighbour as thy ſelf,</hi> in like manner compriſes all thoſe Precepts, which pertain to the Duty of every Man towards all other Men, concerning their lawful Commerce or Commutation of their Goods, and the avoiding of all Deceits, Capital Judgments, the Right of Marriage and Inherit<g ref="char:EOLhyphen"/>ance; which things the Divine Law contains as it hath reſpect to Human Society. There's nothing therefore which brings us into the favour of our Almighty LORD and Maſter, but the obſervance of thoſe two Precepts, on which de<g ref="char:EOLhyphen"/>pend the <hi>Six hundred and thirteen.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Is it neceſſary that we ſhould imploy all our Heart, and all our Mind, and all our Strength, in the Exerciſe of our Love towards Men, which is contained in theſe words,</hi> Thou ſhalt love thy Neighbour as thy ſelf, <hi>in like manner as we ought to do in the Exerciſe of our Love to<g ref="char:EOLhyphen"/>wards
+<pb n="34" facs="tcp:154005:26"/>the Immortal God?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Thoſe two Loves being as it were two Pillars to ſupport the Law, the Exerciſe of them muſt needs be of equal neceſſity; but our Love towards God does with<g ref="char:EOLhyphen"/>out all doubt require the whole Heart, and Mind, and Strength; which is the ſame as if thou ſhouldſt ſay, That to this end that we might rightly obſerve the Com<g ref="char:EOLhyphen"/>mandments of God, that we may reject and caſt out of our minds all vain Thoughts and falſe Conceits, it is neceſſary that our Heart be en<g ref="char:EOLhyphen"/>flam'd with the Fire of Divine Love, and that it be affected with a certain kind of Fear and Reve<g ref="char:EOLhyphen"/>rence, ſo that rather than we would be diſobedient to the Admonitions and Precepts of God, we would chooſe to have our Lives taken from us, ſo far ſhould we be from doing any thing contrary to the Divine Law, for fear of the Loſs of our Eſtate. In a word, that if
+<pb n="35" facs="tcp:154005:26"/>we be in danger to be deprived of our Lives, our Fortunes, and all things which in this Life are moſt dear unto us, this our Love to<g ref="char:EOLhyphen"/>wards God ſhould reſtrain us from doing any thing contrary to the Commandmets of our LORD and Governour. Therefore our Love towards Men alſo requires our Heart, and Mind, and Strength.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Thou muſt needs give ſome light to thoſe thy laſt words, and ex<g ref="char:EOLhyphen"/>pound to me how far thoſe three (Heart, Mind, and Strength) are re<g ref="char:EOLhyphen"/>quir'd for the due performance of our Love towards Men.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>As for the Heart it is re<g ref="char:EOLhyphen"/>quir'd that we do not conceive the leaſt hatred in our Heart againſt any Man, of which the Law ſpeak<g ref="char:EOLhyphen"/>eth expreſly, <hi>Lev.</hi> 19.17. <hi>Thou ſhalt not hate thy Brother in thine Heart.</hi> For that Hatred which is laid up in the depths of the Heart, for the moſt part proceeds from Envy; which Hatred carries in it far
+<pb n="36" facs="tcp:154005:27"/>greater Bitterneſs, than that which hath its riſe from an injury recei<g ref="char:EOLhyphen"/>ved, from any Wrangling or Con<g ref="char:EOLhyphen"/>tention, or any other thing of the like nature. For the cauſe of this kind of Hatred being remov'd, that <hi>Hot Freth</hi> is preſently taken away alſo, and ſo there is a reme<g ref="char:EOLhyphen"/>dy for it. But there can no re<g ref="char:EOLhyphen"/>medy be found out for that Hatred which proceeds from Envy; that is always ſtirring up of Strife, and loathſom Brawlings and Contenti<g ref="char:EOLhyphen"/>ons; that deſtroyed the ſecond Temple, which was not as the firſt, defiled with Idolatry, Whore<g ref="char:EOLhyphen"/>dom, Adultery, Inceſt, and Mur<g ref="char:EOLhyphen"/>der; that hath expell'd the Rem<g ref="char:EOLhyphen"/>nant of the <hi>Jews</hi> from their own Borders, and thoſe <hi>Iſraelites</hi> which are yet in the World, it keeps even to this day in Captivity and Exile. Moreover, this was it which caus'd the Expulſion of our People from ſo many places; this was the cauſe of all the Calamities, Miſeries, and
+<pb n="37" facs="tcp:154005:27"/>Diſtreſſes, which we have ſuffer'd from the beginning of that moſt grievous Captivity to this very day; and this ſtill breaths forth a Smoke ſo thick and ſo loathſom, that it threatens an Univerſal De<g ref="char:EOLhyphen"/>ſtruction. And that Hatred fix'd in the Heart is called <hi>Hatred with<g ref="char:EOLhyphen"/>out conſideration, (Odium Temerari<g ref="char:EOLhyphen"/>um;)</hi> for it ſeizes on a Mans Heart from no other cauſe but mere En<g ref="char:EOLhyphen"/>vy: but this is the moſt grievous and abominable of all the ſeveral kinds of Hatred, becauſe in it there is double Iniquity, <hi>Propenſe Ma<g ref="char:EOLhyphen"/>lice,</hi> which urges to deſtroy a man; and <hi>Malignity</hi> or <hi>Ill Will,</hi> whereby the Heart is infected or poyſon'd. Therefore theſe words are inclu<g ref="char:EOLhyphen"/>ded in the Commandment, <hi>with all thine heart;</hi> for that is not onely a Mans Duty to be free from the guilt of all ſuch Inhumanity, but alſo to love every man truly and heartily, to have a perfect abhor<g ref="char:EOLhyphen"/>rence from all kind of Envy, Strife,
+<pb n="38" facs="tcp:154005:28"/>and Contention. This is to Love with all thine Heart. There is an<g ref="char:EOLhyphen"/>other kind of Hatred, when one man has in his mind an Averſion to another not from Envy or any private Grudge, but upon account of the croſs Manners and ill Diſpo<g ref="char:EOLhyphen"/>ſition of that man to whom he has an Averſion; for the Likeneſs in Manners does of it ſelf beget a mutual Affection between men; ſo on the contrary the Diſagreement in manners and natural inclinations begets Hatred; which is not ſo bit<g ref="char:EOLhyphen"/>ter as that Hatred which we have al<g ref="char:EOLhyphen"/>ready ſpoken of, but yet it is no eaſie matter to root it out, therefore we are admoniſh'd that we keep our ſelves far from it. For that <hi>(with all thy Mind)</hi> implies this ſence, If any ones manners do not agree with thy <hi>Genius,</hi> however thou oughteſt to bear with him, and to love him; for God ſurely is worthy, for whoſe ſake thou ſhouldſt do this. The third kind of Hatred is that which proceeds
+<pb n="39" facs="tcp:154005:28"/>from the immoderate deſire of Ri<g ref="char:EOLhyphen"/>ches; and to this are thoſe words to be referr'd, <hi>and with all thy Strength.</hi> Under this kind of Hatred is com<g ref="char:EOLhyphen"/>prehended that which Workmen (eſpecially if they are of the ſame Trade) are apt to conceive one a<g ref="char:EOLhyphen"/>gainſt another. For Artificers for the moſt part hate thoſe that addict themſelves to the ſame Art, which we are forbidden to do. And indeed if any Artificer think with himſelf, that all gifts or endowments, riches and honours, come from the ONE True God, nor can that be the portion of one which he hath de<g ref="char:EOLhyphen"/>creed to beſtow on another, he will be ſo far from hating thoſe of his own Profeſſion, that he will rather love them the more, as thoſe that are like him in their courſe of life. If it ſo happen that any difference or contention do ariſe between two men, they may go to Law and plead their Cauſe, and when the Judge after a full hearing hath
+<pb n="40" facs="tcp:154005:29"/>determined the Controverſie, they ſhould each of them lay aſide the perſon of an Adverſary. For the whole Company of the <hi>Iſraelites</hi> are like the Body of one and the ſame diſtributed into its ſeveral parts; but it would be a great madneſs, in caſe one Member ſhould by ſome accident be the cauſe of ſome pain to another, for a man in revenge to the part or member offended, to hurt the other part. In like manner, if one man offend another, the perſon offended ought not to revenge the injury nor to retain any bitter reſentments of it; but preſently to forgive the Of<g ref="char:EOLhyphen"/>fender, and to pray unto God to be merciful to him. This was our ancient Father <hi>Abraham</hi>'s way, as we find it written <hi>Gen.</hi> 20.17. <hi>So Abraham prayed unto God, and God healed Abimelech.</hi> Moreover, let every man think ſeriouſly of this, that we who never paſs over one day, wherein we do not commit
+<pb n="41" facs="tcp:154005:29"/>ſome Offence againſt God, do ne<g ref="char:EOLhyphen"/>vertheleſs find that he is ſtill mer<g ref="char:EOLhyphen"/>ciful and gracious unto us. Where<g ref="char:EOLhyphen"/>fore if we are his Children, as it is written <hi>Deut.</hi> 14.1. <hi>Ye a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e the Children of the LORD your God.</hi> If it be our duty to be like to him, we ought ſurely to be as he is, rea<g ref="char:EOLhyphen"/>dy to pardon, and ſlow to anger; for whoſoever is averſe from wrath, that is, the deſire of re<g ref="char:EOLhyphen"/>venge, his ſins are forgiven him; God deals with him as he does with thoſe men that have treſpaſs'd againſt him. We muſt alſo endea<g ref="char:EOLhyphen"/>vour upon all occaſions to con<g ref="char:EOLhyphen"/>vince one another with ſuch words, as are moſt apt to turn away 2 mans mind from all iniquity, leſt we ſhould ſo carry our ſelves, as to incurr the guilt of the ſins that another man hath committed in thought, word, or deed. In this threefold way of acting we ſhould do what we can for the good of one another; for this is the meaning of
+<pb n="42" facs="tcp:154005:30"/>that paſſage in the Law, <hi>Thou ſhalt love thy neighbour as thy ſelf.</hi> What<g ref="char:EOLhyphen"/>ſoever things are pleaſant and de<g ref="char:EOLhyphen"/>lightſem unto thee, theſe thou oughteſt to endeavour as much as in thee lies, to procure for all thoſe perſons that are of thine acquaint<g ref="char:EOLhyphen"/>ance, to reconcile Man and Wife that have been at variance, to pre<g ref="char:EOLhyphen"/>ſerve the peace of thy Country. This is that which we find written <hi>Pſal.</hi> 34.14. <hi>Seek peace and purſue it.</hi> Theſe ſame perſons thou oughteſt alſo to ſerve with thy thoughts, that is to ſay, to deſire moſt ſyncerely that they may be really advantaged by thee; and thou oughteſt as con<g ref="char:EOLhyphen"/>ſtantly to pray unto God for their proſperity as for thine own.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Thou haſt diſcourſed at large of thoſe two places, wherein all the Law is contained, and conſequently our whole duty towards God and to<g ref="char:EOLhyphen"/>wards Men. It remains that thou ſhouldſt now declare what, and how many, are thoſe Seeds of Sin, which
+<pb n="43" facs="tcp:154005:30"/>we ought with all poſſible care to avoid, leſt they hinder us from the at<g ref="char:EOLhyphen"/>tainment of the chief Object of our Hope, the</hi> Sovereign Good, <hi>or the onely True Happineſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The Seed of Sin is three<g ref="char:EOLhyphen"/>fold, Obſtinacy or Wilfulneſs, Im<g ref="char:EOLhyphen"/>prudence, and Rebellion.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What is that which thou cal<g ref="char:EOLhyphen"/>leſt Wilfulneſs?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The Heart and much of every man is evil from his Child<g ref="char:EOLhyphen"/>hood; he cares for nothing but what he conceits will be for his own end, being prone to Luſt, and wholly addicted to the ſatisfaction of his own Inordinate Will; he is ſo eagerly deſirous of Temporal Pleaſures, that he does not diſtin<g ref="char:EOLhyphen"/>guiſh between thoſe that are Law<g ref="char:EOLhyphen"/>ful, and thoſe that are abſolutely Sinful, ſo that he may fulfill his ſenſual deſires. When a man does any thing merely to enjoy his plea<g ref="char:EOLhyphen"/>ſure, and having a perfect know<g ref="char:EOLhyphen"/>ledge that what he does is contrary
+<pb n="44" facs="tcp:154005:31"/>to the Law of God, yet neverthe<g ref="char:EOLhyphen"/>leſs gives way to his inclinations; this is ſaid to be done obſtinately or wilfully.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But what is that which thou calleſt Imprudence?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Of this I may rightly ſay there are two kinds. One conſiſts in the fact or thing done; as if a man being ignorant that ſuch a thing is unlawful to be done, un<g ref="char:EOLhyphen"/>dertakes to do it becauſe he thought that the doing of it was lawful; <hi>For who can underſtand his Errors?</hi> The other is, when any man through Incogitancy or want of Conſideration gives up himſelf to affect ſuch things, which are not in their own nature exceeding wic<g ref="char:EOLhyphen"/>ked; but yet it is a part of Vertue to abſtain from them. Of this kind are the deſires to commit a ſin, the ſpeaking of idle words, the taking of too much pleaſure in things lawful, and the like; for all theſe do as it were make a man
+<pb n="45" facs="tcp:154005:31"/>abaſh'd at the thought of God his Creator, ſo that he cannot with any intention apply his mind to the Contemplation of him, nor yield unto him that Worſhip and Reverence which he requires. Their nature and tendency are ſuch, that they inſenſibly bring a man to a Habit of wickedneſs, and involve him in theſe ſeven Vices which God hates and abominates, and which caſt a man down from the ſtate of a ſound mind, and at once deprive him of Life in this World, and in the World to come.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What are theſe ſeven abo<g ref="char:EOLhyphen"/>minable Vices?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Theſe are as it were ſeven Bodies of the Tree of Perverſneſs or Iniquity, grown up to a great height, from whoſe Branches all ſorts of wickedneſs ſpring forth. And indeed in the beginning they ſeem to be light and of little mo<g ref="char:EOLhyphen"/>ment, that a man ſhould have any
+<pb n="46" facs="tcp:154005:32"/>great care to avoid them; but af<g ref="char:EOLhyphen"/>terward they moſt grievcuſly op<g ref="char:EOLhyphen"/>preſs a man that yields obedience unto them, and ſuch is their hor<g ref="char:EOLhyphen"/>rid force, that it can hardly be, but that he whom they have once depraved becomes incorrigible, for they ſtain the Soul with the deepeſt Tincture of Impiety. Wherefore whoſoever to keep his mind in a good temper, muſt with all dili<g ref="char:EOLhyphen"/>gence endeavour to avoid thoſe vices, Sloth, Pride, Gluttony, Luſt, or the inordinate deſire of Corpo<g ref="char:EOLhyphen"/>real Pleaſures, Anger, or the de<g ref="char:EOLhyphen"/>ſire of Revenge, Covetouſneſs, Envy; to which ſome vices the Prophets attributed ſeven other names, to wit theſe, Evil, Uncir<g ref="char:EOLhyphen"/>cumciſed, Unclean, Enemy, the Stumbling Block.&amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Thoſe things which thou haſt now ſpoken of need ſome explication; wherefore declare the force and nature of every one of theſe ſeven vices, and ſhow how thoſe Names which thou
+<pb n="47" facs="tcp:154005:32"/>laidſt down but now, do anſwer to thoſe Names or Appellations which the Prophets impes'd on the ſame Vi<g ref="char:EOLhyphen"/>ces.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Sloth is a vice which ſo affects a man, that wholly neglect<g ref="char:EOLhyphen"/>ing his duty to keep his Mind in a right temper, he ſits idle and care<g ref="char:EOLhyphen"/>leſs, and turns his thoguhts to vain frivolous Objects, from medita<g ref="char:EOLhyphen"/>ting on the Law of God, from ob<g ref="char:EOLhyphen"/>ſerving his Precepts, and doing the works which he enjoyns us un<g ref="char:EOLhyphen"/>to. This is the Fountain of all Vices, and therefore it is called <hi>Evil.</hi> For this is the meaning of that paſſage in the Law, <hi>Gen.</hi> 8.21. <hi>The imagination of mans heart is evil from his youth.</hi> Such a Creature is Man, he would rather give up him<g ref="char:EOLhyphen"/>ſelf to idleneſs, than take any pains to render his Nature perfect and accompliſh'd, neither does he rightly underſtand wherein the Perfection and Accompliſhment of his Mind does conſiſt. And that
+<pb n="48" facs="tcp:154005:33"/>man is poſſeſt with this vice, who loves to be perpetually playing at Dice or Cards, or to be at ſome other ſport; for this does not con<g ref="char:EOLhyphen"/>tribute any thing to the advantage of the Commonwealth. Whereas a mans Life is not given him but for this end, that he may ſpend it in mediating day and night on the Law of God, and in the Exerciſe of Charity, or in Merchandizing, or in the management of ſome Me<g ref="char:EOLhyphen"/>chanick Art, or in doing ſome other work which may conduce to the Conſervation of the World. A Gameſter therefore is in the number of thoſe men, which are not fit to bear to Office of a Judge.</p>
+            </sp>
+            <p>Pride is a Kingdom without a Diadem; thou maiſt ſee a man car<g ref="char:EOLhyphen"/>rying himſelf in a lofty manner, as if it were beneath him to hear, or ſee or take any notice of what is ſaid or done in his preſence. But why ſhould Man arrogate ſo
+<pb n="49" facs="tcp:154005:33"/>much to himſelf, who ſhall one day be turn'd into Worms and Cor<g ref="char:EOLhyphen"/>ruption, who fadeth like a Flower, and like Smoke vaniſheth away? Therefore the man that is poſſeſt with this vice is called <hi>
+                  <g ref="char:V">Ʋ</g>ncircumci<g ref="char:EOLhyphen"/>ſed.</hi> Hence is that of the Law, <hi>Deut.</hi> 10.16. <hi>Circumciſe the foreskin of your heart.</hi> At firſt Pride ſtirs up Hatred; all men reject and ab<g ref="char:EOLhyphen"/>hor it, for there may be ſome ſuit<g ref="char:EOLhyphen"/>ableneſs or agreement with other things, but with Pride it is impoſ<g ref="char:EOLhyphen"/>ſible there ſhould be any. From diſlike or hatred it comes to paſs that men relinquiſh Society, and keep themſelves at a diſtance from one another, and from hence pro<g ref="char:EOLhyphen"/>ceeds ruine and deſolation. By this it is manifeſt, that a proud man is the deſtruction of a Body Politick, and the diſorder of the World. If a proud man be ſo odious to us here below, ſure he is much more odious to the bleſſed Spirits above; for whoſoever is
+<pb n="50" facs="tcp:154005:34"/>abhorred of all other men, God al<g ref="char:EOLhyphen"/>ſo is diſpleaſed with him.</p>
+            <p>He is ſaid to be a Glutton, in whom there is an inſatiable deſire of Feaſting, that the later Feaſts may be more ſumptuous than the former; for it is a vehment deſire or longing in the bowels of wicked men, who have frequently ſuch Speeches as this in their mouths, <hi>Let us eat and drink, for to morrow weſhall die;</hi> for they live to eat, not eat to live. In the mean time the Belly of ſuch wicked perſons is extreme needy; for not one of them when he goes out of this world, has obtained the half part of the things he had deſir'd and long'd for. Such a man is call'd unclean; for in as much as we read <hi>Pſal.</hi> 51.12. <hi>Create in me a clean heart, O God,</hi> 'tis manifeſt that there is ſomething unclean. But this vice is as it were a ſtream of filthineſs, from whence Pollutions continually flow. This overwhelms
+<pb n="51" facs="tcp:154005:34"/>a man with all manner of Impu<g ref="char:EOLhyphen"/>rities.</p>
+            <p>Now by Luſt we are to under<g ref="char:EOLhyphen"/>ſtand an unbridled deſire of Cor<g ref="char:EOLhyphen"/>poreal Pleaſures; this is an ex<g ref="char:EOLhyphen"/>treme and exceeding great wicked<g ref="char:EOLhyphen"/>neſs. 'Tis called <hi>Enemy,</hi> for thoſe words may have ſome meaning that refers to this vice, <hi>Prov.</hi> 25.21. <hi>If thine Enemy be hungry, give him bread to eat; and if he be thir<g ref="char:EOLhyphen"/>ſty, give hive water to drink.</hi> For this wicked deſire is a mans greateſt Enemy; it brings death to his Soul, becauſe it forces him to com<g ref="char:EOLhyphen"/>mit ſuch horrid impieties, which enkindle the wrath of the Divine Majeſty againſt him. A man gi<g ref="char:EOLhyphen"/>ven up to his Luſt is hated of God; for God is holy, and all wanton<g ref="char:EOLhyphen"/>neſs and impurity is an abominati<g ref="char:EOLhyphen"/>on unto him. This man is alſo ha<g ref="char:EOLhyphen"/>ted of Men, for all have an Aver<g ref="char:EOLhyphen"/>ſion to ſuch a man, who has no re<g ref="char:EOLhyphen"/>gard of his own or others Honour and Reputation. Theſe words
+<pb n="52" facs="tcp:154005:35"/>may therefore be thus interpret<g ref="char:EOLhyphen"/>ed, If the ravenous Appetite of this Enemy ſhould excite thee to wickedneſs, ſee thou ſatisfie him with the Bread of the Divine Law, and the Drink of true Repent<g ref="char:EOLhyphen"/>ance, and of the Fear of God; this way thou ſhalt heap coals of fire upon his head, and ſhalt re<g ref="char:EOLhyphen"/>ceive an ample Reward. Briefly and pertinently ſpake the wiſe men of old, <hi>If thou meeteſt with any lewd obſcene fellow, conſtrain him to go with thee to the School which is ap<g ref="char:EOLhyphen"/>pointed to expound the Divine Law.</hi> God will give thee a reward, who is moſt bountiful in his Gifts.</p>
+            <p>Anger is a burning deſire of re<g ref="char:EOLhyphen"/>venge, whereby a man is as it were all in flames. This is called a Stumbling-block; for of this the Prophet ſpake when he ſaid, <hi>Iſaiah</hi> 57.14. <hi>Take up the ſtumbling block out of the way of my people.</hi> The mind of a man that is enraged and full of Anger, runs violently upon
+<pb n="53" facs="tcp:154005:35"/>that which is hurtful, and ſhould be avoided as a Ship that is daſh'd upon a rock. If a man be not ſlow to anger, patient, and long-ſuffer<g ref="char:EOLhyphen"/>ing, he renders his own Life, and the lives of others, very miſe<g ref="char:EOLhyphen"/>rable.</p>
+            <p>Covetouſneſs is a vaſt deſire deeply fixed in the heart of heap<g ref="char:EOLhyphen"/>ing up Riches. This ſtands in op<g ref="char:EOLhyphen"/>poſition to Liberality as a hard rock in the heart of a Man; the rock yields not a drop of water, nor is moved out of its place by the violence of the winds; ſo a cove<g ref="char:EOLhyphen"/>tous man he hearkens not to thoſe that adviſe him to relieve the ne<g ref="char:EOLhyphen"/>ceſſities of the Poor, or to do any Office of Charity, that may tend in the leaſt to his detriment. For he is of ſuch a mind, that Riches are much more dear to him than his Soul and Body. And for this cauſe he is called a Stone. Hence it is that the Prophet ſpeaks, <hi>I will take away the ſtony heart out of your
+<pb n="54" facs="tcp:154005:36"/>fleſh, and I will give you an heart of fleſh, Ezech.</hi> 36.26.</p>
+            <p>Envy is ſuch an ill diſpoſition of the Mind, whereby a man is ſo affected that he grieves for the Proſperity of others, and rejoy<g ref="char:EOLhyphen"/>ceth in their Calamity. Such a man is like a Baſilisk, which hor<g ref="char:EOLhyphen"/>rid Monſter breaths forth poiſon, whereas it gets nothing thereby. And a Baſilisk ſends forth from his eyes poiſon generated in its heart; ſo that the eyes of the envious man diſcover the flame that his Heart hath conceived.</p>
+            <p>Lo theſe ſeven Trunks or full grown Bodies of Iniquity, which when thy Soul ſhall be all faſtned unto, though it be through impru<g ref="char:EOLhyphen"/>dence and ignorance of the miſ<g ref="char:EOLhyphen"/>chievous nature of them; never<g ref="char:EOLhyphen"/>theleſs thou ſhalt by little and little be drawn aſide, ſo that thou ſhalt incur the guilt of the moſt horrid Impieties, and break that Silver Cord, and that Bond whereby
+<pb n="55" facs="tcp:154005:36"/>Mortals are joyned to the Immor<g ref="char:EOLhyphen"/>tal God; for ſo it is that one ſin flows upon another.</p>
+            <p>Theſe vices do of themſelves infect and poiſon the Soul, and at length they involve it in the guilt of thoſe Impieties, which are the greateſt abomination unto God. For as it is written <hi>Prov.</hi> 6.16. <hi>Six things doth the Lord hate, yea ſeven are an abomination unto him.</hi>
+            </p>
+            <p>By which words we may under<g ref="char:EOLhyphen"/>ſtand this, that whoſoever hath his Soul poſſeſt with thoſe ſeven moſt horrid Vices which I have reckoned up, he will be induced to theſe ſix moſt abominable Impieties, which are ſo odious unto God, and to do thoſe four primary Miſchiefs, whoſe Cries for vengeance pierce the Heavens, till they deprive the guilty perſon of his Life both in this and in the other world.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What are thoſe ſix moſt abo<g ref="char:EOLhyphen"/>ninable wickedneſſes or impieties, which are ſo odious unto God?</hi>
+               </p>
+            </sp>
+            <pb n="56" facs="tcp:154005:37"/>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The firſt is, if a man ſhall moſt impudently take up ſuch a conceit, that he ſhall attain Eternal Life, although he omit the per<g ref="char:EOLhyphen"/>formance of thoſe Command<g ref="char:EOLhyphen"/>ments, which God has abſolutely and indiſpenſably joyned him un<g ref="char:EOLhyphen"/>to. Another is this, If he diſtruſt the Goodneſs and Mercy of God, and ſo conceits that now after he has committed ſo many crimes, there is no hope left for him, that the Divine Majeſty has no hands to be ſtretched out to thoſe that re<g ref="char:EOLhyphen"/>turn into the Paths of Righteouſ<g ref="char:EOLhyphen"/>neſs, that he has no compaſſion for thoſe that have been heinouſly wic<g ref="char:EOLhyphen"/>ked. But if a man be guilty of all manner of wickedneſs, and with a broken Heart and contrite Spirit beg pardon of God, he will find him to be a God merciful and gra<g ref="char:EOLhyphen"/>cious, and eaſie to be intreated. For God deſires not the death of a Sinner, but rather that he turn from the ways of Sin and Corrup<g ref="char:EOLhyphen"/>tion,
+<pb n="57" facs="tcp:154005:37"/>unto ſoundneſs and integrity of Life. Is there any of us that has been guilty of ſo many, ſo great, and ſo heinous Offences againſt God as <hi>Manaſſes</hi> was, who made it his buſineſs to enflame the wrath of God? but even of him we find it written 2 <hi>Chron.</hi> 33.13. <hi>And prayed unto him, and he was in<g ref="char:EOLhyphen"/>treated of him, &amp;c.</hi> The third is, when a man reſiſts the truth known, and perceived fully that he may pour out his mind upon ſin, and vanity and be wholly addicted to a licentious courſe of life. The fourth is, To envy another for the Gifts which God has beſtowed on him, as <hi>Cain</hi> envied <hi>Abel</hi> becauſe God had reſpect to his Offer<g ref="char:EOLhyphen"/>ing.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But how does this kind of Envy differ from that which thou haſt put in the number of the ſeven Vices, which are ſo abominated of God?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The difference is, that this Grief or Sickneſs of Mind does
+<pb n="58" facs="tcp:154005:38"/>ariſe from the Obſervances of thoſe Spiritual Advantages, which a man ſees by the Divine Bounty to be conferr'd on others for their well-doing. Of this nature was the ill will of <hi>Cain</hi> againſt <hi>Abel;</hi> for when a man envies another in ſuch manner, he has a fooliſh con<g ref="char:EOLhyphen"/>ceit that he comes not behind any one in good works, and yet he has not received the ſame reward with others, that ſo the Supreme Judge has reſpect of perſons, he grieves that he has lived ſo well, and bends himſelf to the deſtruction of ano<g ref="char:EOLhyphen"/>ther, who is more beloved of God than himſelf. In this manner <hi>Saul</hi> envied <hi>David.</hi> But that Envy we have formerly ſpoken of, is the Grief which a man conceives when he ſees another man grow Rich or Honourable, &amp;c. And for the moſt part this kind of Envy falls upon the Spirits of Women, and perſons of weak underſtanding; neither does it like this, urge a man
+<pb n="59" facs="tcp:154005:38"/>to commit the moſt horrid wicked<g ref="char:EOLhyphen"/>neſs.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>I have heard thy diſtinction, and moſt heartily approve it; it re<g ref="char:EOLhyphen"/>mains that thou explain the other two moſt abominable impieties above men<g ref="char:EOLhyphen"/>tioned.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The Fifth is, if any man remain ſtubbornly and pertinaci<g ref="char:EOLhyphen"/>ouſly in his own Opinion, even then when men in the higheſt Authority diſſent from him, he is every where called an Old Rebel. He deliver his own Sentiments to be followed by others; of this man we find it written <hi>Deut.</hi> 17.12. <hi>And the man that will do preſumptuouſly.</hi> The Sixth is, For a man to be delibe<g ref="char:EOLhyphen"/>rate, and to be fixed in his reſolu<g ref="char:EOLhyphen"/>tion, that he will never repent, but that he will die in his ſins.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But what are thoſe four pri<g ref="char:EOLhyphen"/>mary Miſchiefs, which cry aloud unto God for vengeance?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>The firſt is if one man kill another willingly and knowingly,
+<pb n="60" facs="tcp:154005:39"/>for the Altar it ſelf affords no ſafe<g ref="char:EOLhyphen"/>ty to a Murderer; for it is writ<g ref="char:EOLhyphen"/>ten in the Law, <hi>Exod.</hi> 21.14. <hi>But if a man come preſumptuouſly upon his neighbour, to ſlay him with guile, thou ſtalt take him from mine Altar that he may die.</hi> To the ſame effect is that ſpoken in the Law, <hi>Gen.</hi> 4.10. <hi>The voice of thy Brothers bloud crieth unto me.</hi>
+               </p>
+            </sp>
+            <p>The next is, to defile another mans bed, of which ſin it is writ<g ref="char:EOLhyphen"/>ten <hi>Prov.</hi> 6.28, 29. <hi>Can one go upon hot coals, and his feet not be burnt? So he that goes in to his neighbours wife. Whoſoever toucheth her ſhall not be innocent.</hi>
+            </p>
+            <p>The third is, the oppreſſing of the Poor, the forcing the hungry and needy to weeping and wailing; concerning which thus ſpeaks the Divine Oracle, <hi>Pſal.</hi> 12.5. <hi>Now will I ariſe, ſaith the Lord.</hi>
+            </p>
+            <p>The fourth, to defraud the Hireling of his wages, for that is the ſame as to deject his Spirits,
+<pb n="61" facs="tcp:154005:39"/>and make his heart to fail him. To this pertains that of the Law, <hi>Deut.</hi> 24.15. <hi>For he is poor, and ſet<g ref="char:EOLhyphen"/>teth his heart upon it.</hi> He that is addicted to theſe horrible Crimes, and to theſe ſeven Vices which are ſo hated of God, he preſently en<g ref="char:EOLhyphen"/>tangles himſelf in Rebellion, the third ſtock or complication of Ini<g ref="char:EOLhyphen"/>quity; that is to ſay, he knows his Lords will, and of ſet purpoſe acts that which is moſt contrary unto it. There remains no ſafety, no hope for ſuch a man; for what, how ſhall he eſcape, who when he underſtands what his Lord would have him to do, does the contrary with all his might? Surely his Lords wrath ſhall burn againſt him; he will break a Rod of Iron over him; he will bring him into judgment, nor will he ſuffer him o go unpuniſhed.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>What, doth not Repentance profit a man that has been guilty of Rebellion, which proves a Soveraign
+<pb n="62" facs="tcp:154005:40"/>Medicine for Impudence and Obſti<g ref="char:EOLhyphen"/>nacy?</hi>
+               </p>
+            </sp>
+            <p>
+               <hi>Sch.</hi> Doubtleſs there's great vertue and efficacy in Penitence, Affliction of Mind, Prayer, and Good Works; there's no Sin but what will be forgiven him that rightly performs theſe Duties, and the Hand of God is always ſtretch<g ref="char:EOLhyphen"/>ed forth, to receive thoſe who re<g ref="char:EOLhyphen"/>turn into the Paths of Righteouſ<g ref="char:EOLhyphen"/>neſs. But there is ſomewhat more required of him that is ſtain'd with the guilt of Rebellion, he muſt re<g ref="char:EOLhyphen"/>tain thoſe excellent Advocates to plead for him, the continual Me<g ref="char:EOLhyphen"/>ditation of the Divine Law, and the moſt earneſt ſtudy of Good<g ref="char:EOLhyphen"/>neſs and Righteouſneſs, by whoſe help his Prayer and Penitence be<g ref="char:EOLhyphen"/>comes acceptable to God. His Wickedneſs and Concupiſcence keep him at a great diſtance from God, and hinder the acceſs of his Prayers. Now he that will be cur'd of the Sickneſs of his Soul,
+<pb n="63" facs="tcp:154005:40"/>ſhould take the ſame courſe with him who labours under any Di<g ref="char:EOLhyphen"/>ſtemper of Body, for he goes to the Phyſician, of whom he may learn what he muſt do to recover his Health. In like manner he that is ſick in his Soul, ſhould apply himſelf to ſome wiſe man, that has the skill to ſhew him how he may be cur'd. But ſith the Medicine of the Body is ſo prepar'd, that it is contrary to the nature of the Diſ<g ref="char:EOLhyphen"/>eaſe; it follows that the Phyſician of the Soul muſt alſo ſeek out ſuch Remedies which reſiſt the nature of Concupiſcence, which is predo<g ref="char:EOLhyphen"/>minant in a diſeaſed Soul.</p>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Tell now, I pray thee, what are thoſe Studies and Inclinations, which are oppoſed to thoſe ſeven Bodies of Iniquity, which at firſt footh and flatter, but at length inſult and domi<g ref="char:EOLhyphen"/>neer intolerably.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>To Sloth is oppoſed Dili<g ref="char:EOLhyphen"/>gence, to Pride Humility, to Glut<g ref="char:EOLhyphen"/>tony the Macerating of the Body
+<pb n="64" facs="tcp:154005:41"/>by Faſting and Abſtinence from delicate Meats, to Luſt the deſpi<g ref="char:EOLhyphen"/>ſing of Senſual Pleaſures, to Wrath<g ref="char:EOLhyphen"/>fulneſs Lenity and Patience, and a certain kind of hardneſs of Senſe, rendering it unapt to take Impreſſi<g ref="char:EOLhyphen"/>ons from the ſharpeſt Reproaches; to Covetouſneſs Beneficence and Liberality, to Envy Benevolence or good will to all men. But now it is neceſſary that thou ſpend much time in bending thy mind with all thy force to that temper and diſpo<g ref="char:EOLhyphen"/>ſition, which is moſt contrary to Luſt, till a long continued practice ſhall apply thy mind to this ſide, and thou ſhalt perceive thy Phyſick works too much, and that thou art in a tendency to the other Ex<g ref="char:EOLhyphen"/>treme, and ſo thou muſt go back a little, and fix thy ſelf in the laud<g ref="char:EOLhyphen"/>able Mean which lies betwixt two Extremes, by the advice and per<g ref="char:EOLhyphen"/>ſuaſion of that wiſe man, whom thou ſhalt make choice of to be thy Spiritual Guide and Inſtructer.</p>
+            </sp>
+            <pb n="65" facs="tcp:154005:41"/>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Is there any thing beſides thoſe ſeveral things which thou haſt now reckoned up neceſſary for our aſſiſtance in combating our Enemy.</hi> Concupiſcence, <hi>which is always burn<g ref="char:EOLhyphen"/>ing and urging us to commit wicked<g ref="char:EOLhyphen"/>neſe?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Yes ſurely, it is neceſſary that the Mercy and Grace of God help and ſtrengthen us, and deli<g ref="char:EOLhyphen"/>ver our Souls from the power of Hell, which will be ever preſent with us, if we pour out our Pray<g ref="char:EOLhyphen"/>ers unto God with our whole Hearts, and give up our ſelves en<g ref="char:EOLhyphen"/>tirely to the ſtudy of true Vertue and Godlineſs; for God draws nigh unto them who call upon him, and he never denies his Aſſiſtance to thoſe whoſe Endeavours are good and upright. Thus he will give Fortitude to reſiſts Sloth and Idleneſs, he will endue us with the Fear of his Infinite Majeſty to ſub<g ref="char:EOLhyphen"/>due our Pride, he will give us Temperance in oppoſition to Glut<g ref="char:EOLhyphen"/>tony,
+<pb n="66" facs="tcp:154005:42"/>a wiſe and ſolid Mind in op<g ref="char:EOLhyphen"/>poſition to Luſt, a ſound Judgment and Knowledge of the proper uſe of Riches in oppoſition to Cove<g ref="char:EOLhyphen"/>touſneſs, univerſal Kindneſs in op<g ref="char:EOLhyphen"/>poſition to Envy. Moreover, he will fill us with the fruit of thoſe Virtues, which at once delights the Soul, cheriſhes the Limbs, yea and heals with its Balm every Malady of the Body, ſo it will come to paſs, that we ſhall enjoy great peace and tranquillity, and even in this Life we ſhall have ſome fore-taſte of the pleaſures of the World to come; and after Death we ſhall be advanced to the high and Illuſtri<g ref="char:EOLhyphen"/>ous Dignity of Holy Men, and to<g ref="char:EOLhyphen"/>gether with them ſhall live for ever in Paradice, in the full enjoyment of all manner of Delights and Sa<g ref="char:EOLhyphen"/>tisfactions.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But I pray thee, what is that ſo ſweet and pleaſant fruit?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Love, Joy, Peace, Dili<g ref="char:EOLhyphen"/>gence, Innocence, Chaſtity, Conti<g ref="char:EOLhyphen"/>nence,
+<pb n="67" facs="tcp:154005:42"/>Sanctity, Meekneſs, and that Fear of God which ariſes from the knowledge of the Excellency of the Creation, and the obſer<g ref="char:EOLhyphen"/>vance of the Divine Wiſdom in governing the World; and alſo true Piety and Devotion, and final<g ref="char:EOLhyphen"/>ly the Inſpiration of the Divine Spirit. For when we ſhall be ta<g ref="char:EOLhyphen"/>ken off from the Wine of the Earth, and from all obſcene plea<g ref="char:EOLhyphen"/>ſures, then God will communicate his ſecret unto us, and that Power which will bring the Heart into an excellent frame, and at once illu<g ref="char:EOLhyphen"/>ſtrate Delights, ſatisfie the three parts or faculties of the Soul, and will impart unto us thoſe three Gifts, which are the root and prin<g ref="char:EOLhyphen"/>ciple of the Perſuaſion, or lively ſence of the Truth, and the foun<g ref="char:EOLhyphen"/>dation of the Law; from whence it comes to paſs, that even whileſt we are incloſed in this earthly, ob<g ref="char:EOLhyphen"/>ſcure, darkſom Body, we behold the heavenly light; neither do we
+<pb n="68" facs="tcp:154005:43"/>like thoſe that are blind and walk in darkneſs.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>The words thou haſt ſpoken need ſome explication; and firſt what are thoſe three parts of the Soul?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Wit or Underſtanding, Will, and Memory.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But which are thoſe three Gifts on which the perſuaſion or live<g ref="char:EOLhyphen"/>ly ſence of the truth depends?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Faith, Hope, and Charity, of which I ſpake but now.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>But what? is it of any mo<g ref="char:EOLhyphen"/>m<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nt whether a man apprehend thoſe things as thou doſt now, my dear Scho<g ref="char:EOLhyphen"/>lar, onely by what he hath heard, or whether he have a clear knowledge and comprehenſion of them, after thoſe three Gifts are communicated to the Soul, which thou ſpokeſt of but now?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>I am not able to give an Anſwer to this Queſtion, for a Blind man cannot judge of Light; but I am of this mind, that the knowledge of theſe things which are certain, and grounded upon
+<pb n="69" facs="tcp:154005:43"/>experience, is far more excellent that that which is onely gotten by hearing them diſcours'd of: Even ſo as if it ſhould be ſaid to any one, Believe that there are an hundred Pieces of Gold in that Purſe, which thou art not permitted to ſee or touch, but they are provided for thy uſe, to ſupply thy neceſſities; he ſhould not be ſo well dealt with, as if it were granted to him that he ſhould ſee the Money, and take out part of it for his preſent occa<g ref="char:EOLhyphen"/>ſions, and look upon it, and make uſe of it at his pleaſure; for then indeed he would have a certain knowledge that the Money was laid up for his uſe. Wherefore I apply my ſelf to you, moſt wiſe and learned Sir, that I may be di<g ref="char:EOLhyphen"/>rected by your Precepts and Inſtru<g ref="char:EOLhyphen"/>ctions, and may be well grounded in your Principles. Shew me, I pray you, the right way how I may yield ſyncere obedience to the will of my Creator. Teach me how I
+<pb n="70" facs="tcp:154005:44"/>may perceive the Infinite Excellen<g ref="char:EOLhyphen"/>cy of my Creator, my King, and my God, ſo far as 'tis poſſible, for a Man born of a Woman, be<g ref="char:EOLhyphen"/>ing of ſo weak underſtanding whi<g ref="char:EOLhyphen"/>leſt he remains in this world, uſe your utmoſt endeavour that no ſin<g ref="char:EOLhyphen"/>ful Affections, nor any defect of Knowledge, may call me back from thoſe holy purpoſes and intentions, for I was born to this end, that I might perſevere in the perform<g ref="char:EOLhyphen"/>ance of them.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>I pray God, by whoſe provi<g ref="char:EOLhyphen"/>dence thou art come hither, to make thy coming proſperous unto thee; hap<g ref="char:EOLhyphen"/>py is the Woman that brought thee in<g ref="char:EOLhyphen"/>to the world. Surely thou wilt be a comfort to thy Parents; thy ſpeech hath filled me with joy. And I doubt not but one day thou wilt make thy ſelf an example of the higheſt virtue in</hi> Ephrata, <hi>and illuminate</hi> Judaea <hi>with thy Inſtructions. Now therefore I deſire that thou wouldſt hearken dili<g ref="char:EOLhyphen"/>gently to my words, and lay up my
+<pb n="71" facs="tcp:154005:44"/>precepts in thy heart, and never de<g ref="char:EOLhyphen"/>part from them; for if thou wilt give ear to me with all poſſible attention, I ſhall furniſh thy mind with ſuch coun<g ref="char:EOLhyphen"/>ſels as ſhall moſt certainly conduct thee to the paths of true wiſdom.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Sch.</speaker>
+               <p>Speak, Sir, for thy Servant heareth. I have firmly reſolved to obſerve your directions; I will keep my feet from every evil way, that I may follow your Inſtructi<g ref="char:EOLhyphen"/>ons, for my Mind thirſteth moſt vehemently after your precepts. Do your endeavour then according to the uprightneſs of your heart, to bring me to that good way, where I may be quiet from fear of evil.</p>
+            </sp>
+            <sp>
+               <speaker>Maſt.</speaker>
+               <p>
+                  <hi>Mind this in the firſt place, my beloved Scholar, that the Fear of God is the root and principle of all Divine Notions and Doctrines; in which as in a large Treaſury they are all virtually contained. But that he who has not this fear in his heart, is not fit to be admitted into thoſe Schools
+<pb n="72" facs="tcp:154005:45"/>that are appointed for the Expoſition of the Divine Law, leſt he add ſin to ſin. For ſo it is, that whoſoever has the true fear and reverence of God, the doctrine of the Divine Law will be unto him as a wholeſom Medicine. But on the contrary, to him that is void of this Godly Fear, it proves to be deadly poiſon; for ſuch a man is more cruel than the wild Beaſts, as one that abuſes the knowledge of the Di<g ref="char:EOLhyphen"/>vine Law, and makes it the inſtru<g ref="char:EOLhyphen"/>ment of Malice and Deceit. Where<g ref="char:EOLhyphen"/>fore have a care that thou turn not from the right way, turn not to the right hand nor to the left, from the way of that fear we have mentioned,</hi> Deut. 6.18. Thou ſhalt fear the Lord thy God. <hi>Now in this point of the Law it is to be underſtood, that we muſt reverence the Diſciples of wiſe men, for they will hold forth a Light to thy mind, they will bring thee up in the right way, and inſtruct thee how to perform every duty, according to the Rule of the Divine Law, which
+<pb n="73" facs="tcp:154005:45"/>they will clearly expound unto thee. Secondly, learn this, of which I would have thee fully perſuaded, Whoſoever is approved of Men, has a good ſign that he is acceptable to God; for he has the Fear of God before his eyes both in private and in publick. Where<g ref="char:EOLhyphen"/>fore every man ought to devote him<g ref="char:EOLhyphen"/>ſelf to this Fear, and to behave him<g ref="char:EOLhyphen"/>ſelf ſo, that he may be beloved of all Men, and be the delight of his Breth<g ref="char:EOLhyphen"/>ren. Have a care that thou yield not ſuch reſpect to any man, which may make thee to forſake the Truth; diſ<g ref="char:EOLhyphen"/>regard all things in compariſon of this, for God is holy, and his ſeal is Truth. Now whatſoever it ſhall pleaſe God the Creator to diſpenſe unto thee, let that ſatisfie thee, whether it be little or much. Take this for certain, that he is the rich man who lives chearfully, being always content with his own con<g ref="char:EOLhyphen"/>dition. But he that abounds with wealth, if he be often vexed and di<g ref="char:EOLhyphen"/>ſturbed, and ſollicitous about the get<g ref="char:EOLhyphen"/>ting of more, he is in no wiſe to be ac<g ref="char:EOLhyphen"/>counted a rich man.</hi>
+               </p>
+            </sp>
+            <pb n="74" facs="tcp:154005:46"/>
+            <p>
+               <hi>Devote every action to the glory of God; let all things have reference to the honour of the Almighty Creator; by the continual changes and alterati<g ref="char:EOLhyphen"/>ons incident to this life, be ſtirred up to the contemplation and acknowledg<g ref="char:EOLhyphen"/>ment of thy Creator, going, lying, ri<g ref="char:EOLhyphen"/>ſing. As for inſtance, when thou ta<g ref="char:EOLhyphen"/>keſt thy Meat, think with thy ſelf that thy Meat is ſo prepared for thee by the infinite wiſdom of God, that it has ſuch a quality, that it is turn'd into the ſubſtance of thy body. When thou goeſt to bed, conſider that it is by the Divine Bounty that we Mortals enjoy our ſleep, which gives reſt to our Bo<g ref="char:EOLhyphen"/>dies, and renews their strength, that we may be more able to perform the ſolemn Worſhip of God, and to do the works of our vocation. Reflect in like manner on the other Functions of the Body, for which be thankful and give glory to God. Thus whatſoever thou doeſt, thou oughtſt to do it with refer<g ref="char:EOLhyphen"/>ence to God, who will continually pro<g ref="char:EOLhyphen"/>vide for thee, and proſper thee in all
+<pb n="75" facs="tcp:154005:46"/>thy affairs; he will make all thy ways ſtreight, he will keep thy feet from every path, that would lead thee aſide to the right hand or to the left.</hi>
+            </p>
+            <p>
+               <hi>Moreover, in all that thou coeſt, whether in publick or in private, ſee thou moſt ſtrictly and carefully obſerve the Laws of perfect Chaſtity and Mo<g ref="char:EOLhyphen"/>deſty; for Wiſdom always accompanies thoſe that are of a clean heart.</hi>
+            </p>
+            <p>
+               <hi>Take heed to thy ſelf, and uſe all diligence to avoid the company of wic<g ref="char:EOLhyphen"/>ked men, for every one is led by his Companion to vice or virtue, and God abominates all works of iniquity, and all vicious perſons. Have a care there<g ref="char:EOLhyphen"/>fore that thou never joyn thy ſelf in counſel with ſuch men, nor tread in their ſteps, whoſe feet are ſwift to do miſchief. And be confident of this, that if thou haſt any familiar intimate converſation with them, although thou doſt not imitate their practices; ne<g ref="char:EOLhyphen"/>vertheleſs God will diſappoint thy un<g ref="char:EOLhyphen"/>dertakings, and both the Love and Holy Fear of the Divine Majeſty will
+<pb n="76" facs="tcp:154005:47"/>at once ſlide out of thine heart, and all thy ways ſhall be full of windings and turnings, and inexplicable diffi<g ref="char:EOLhyphen"/>culties. Fly from ſin, avoid all vice and impurity, and whatſoever has any appearance thereof. Be vigilant and circumſpect continually, that thou may<g ref="char:EOLhyphen"/>eſt not fall under the ſuſpicion of any abominable practice. Study to oblige every man, and be not backward to thoſe that ſtand in need of thy help, according to thy power, ſo that thou do nothing contrary to the Law of God. For if it come to paſs that any man, thy Father, thy Mother, thy Teacher or Inſtructor, yea thy Prince, though he be the moſt potent Monarch in the world, ſhould command thee to do any thing contrary to the Law of God, do not obey him, not give ear unto his words; let not the Authority of any man prevail with thee as much as the Divine Majeſty. But let the Power of God and his dreadful Tribunal be<g ref="char:EOLhyphen"/>get in thee far greater terror, than the Edicts or fierce Threatnings of any
+<pb n="77" facs="tcp:154005:47"/>King. If thou ſhalt lead thy life ac<g ref="char:EOLhyphen"/>cording to theſe precepts, God will meet with thy expectations, and defend thee from the ſnare that any one has laid for thee, and from every evil accident: thou ſhalt overthrow great and ſtrong Lions, Serpents, and Draggons thou ſhalt tread under thy feet, and be de<g ref="char:EOLhyphen"/>livered from all dangers. Now be<g ref="char:EOLhyphen"/>cauſe thou art ſo deſirous to perceive the ſecrets of the Divine Law, ſee thou come every day to my Houſe; I will not grudge to inſtruct thee all the day long, how thou mayeſt attain to the perfection of true Virtue and God<g ref="char:EOLhyphen"/>lineſs. Go to then my Son, prepare all the faculties of thy Soul, and from the bottom of thy heart with the moſt ar<g ref="char:EOLhyphen"/>dent devotion pray unto God, that he would open unto thee the Gates of Knowledge and Wiſdom. Get the know<g ref="char:EOLhyphen"/>ledge get the knowledfe of God; this is the only thing in which thou mayſt glory if thou wilt glory in any thing,</hi> Fear God and keep his Commandments, for this is the whole Duty of Man.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:154005:48"/>
+            <pb facs="tcp:154005:48"/>
+         </div>
+      </body>
+   </text>
+</TEI>
